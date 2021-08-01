@@ -1,0 +1,50 @@
+a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 5px;
+}
+
+.price a,
+.new_design a {
+  display: block;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+.others {
+  height: 210px;
+}
+.card {
+  display: inline-block;
+  margin-right: 15px;
+}
+.imago img {
+  width: 100%;
+}
+meter {
+  width: 200px;
+  height: 30px;
+}
+span {
+  color: #ffa93a;
+}
+.oprice {
+  color: gray;
+  text-decoration: line-through;
+}
+@media (min-width: 961px) {
+  .cards .card {
+    width: 22%;
+  }
+}
+@media (max-width: 960px) and (min-width: 361px) {
+  .cards .card {
+    width: 46%;
+  }
+}
+@media (max-width: 361px) {
+  .cards .card {
+    width: 95%;
+  }
+}
